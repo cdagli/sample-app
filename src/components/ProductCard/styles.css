@@ -1,0 +1,32 @@
+.product-card {
+  border: 1px lightgray solid;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  height: 371px;
+  width: 182px;
+}
+
+.product-card__price {
+  margin-top: 32px;
+  color: darkorange;
+  font-size: 24px;
+}
+
+.product-card__add {
+  margin-top: 32px;
+  height: 48px;
+  border: none;
+  border-radius: 8px;
+  background: orange;
+  color: white;
+}
+
+.product-card__title {
+  color: darkgray;
+  font-size: 24px;
+  margin-bottom: 32px;
+}
